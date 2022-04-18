@@ -6,7 +6,13 @@
 
     &__img {
         fill:#AFB1B8;
-        transition: 250s $cubic-b;
+        transition: 250ms $cubic-b;
+    }
+
+    // .social__item
+    
+    &__item:not(:last-child) {
+        margin-right: 10px;
     }
 
     // .social__link
@@ -29,17 +35,9 @@
         }
     }
 
+    // .social__link--dark
     
-
-    // .social__item--footer
-    
-    &__item--footer:not(:last-child) {
-         margin-right: 10px;
-    }
-    
-    // .social__link--footer
-    
-    &__link--footer {
+    &__link--dark {
         background: rgba(255, 255, 255, 0.1);
     }
     

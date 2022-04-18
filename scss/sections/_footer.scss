@@ -37,9 +37,9 @@
         }
 
         &:focus {
-            color: var(--white-color);
-            background-color: var(--third-color);
-            outline-color:var(--third-color);
+            color: $white-color;
+            background-color: $third-color;
+            outline-color: $third-color;
         }
     }
 
@@ -83,10 +83,7 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
         outline: transparent;
-
-        &--color-text {
-            color: $white-color;
-        }
+        color: $white-color;
 
         &::placeholder {
             font-size: 16px;
@@ -110,12 +107,11 @@
     }
 }
 
-.footer, 
-.hero {
+.footer {
     background-color: #2F303A;
 }
-.footer__logo > span {
-    color: var(--white-color);
+.footer__logo>span {
+    color: $white-color;
 }
 
 
